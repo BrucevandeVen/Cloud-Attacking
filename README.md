@@ -21,7 +21,7 @@ Bron: [DOT Framework](https://ictresearchmethods.nl/The_DOT_Framework)
 Ik wil graag meer weten over cloud exploits en deze kennis gebruiken om mij meer bewust te maken van de gevaren die cloud met zich mee kunnen brengen en eventueel daartegen bestand te worden. 
 
 De hoofdonderzoeksvraag:  
-**Hoe veilig zijn cloud omgevingen?**
+**Is het mogelijk om cloud omgevingen te exploiten?**
 
 ## Why  
 **Deelvragen**  
