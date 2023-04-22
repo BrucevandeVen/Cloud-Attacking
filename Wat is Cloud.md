@@ -9,7 +9,7 @@ In de infrastructuur laag komen netwerken, hardwarevirtualisatie en servers ter 
   
 ![image](https://media.geeksforgeeks.org/wp-content/uploads/20221228112413/Cloud-Computing-Layers.png)
   
-Een Cloud omgeving bestaat uit een (vaak grote) server ruimte waar alle services van alle klanten op draaien. Zo kan de klant een groot gedeelte van zijn IT omgeving of applicaties uitbesteden en zelf geen onderhoud te verlenen, in de meeste gevallen heeft dit gemak ook een prijskaartje.  
+Een Cloud omgeving bestaat uit een (vaak grote) server ruimte waar alle services van alle klanten op draaien. Zo kan de klant een groot gedeelte van zijn IT omgeving of applicaties uitbesteden en hoeft daarom zelf geen onderhoud te verlenen, in de meeste gevallen heeft dit gemak ook een prijskaartje.  
   
 Bronnen:  
 [Wikipedia](https://nl.wikipedia.org/wiki/Cloudcomputing)  
