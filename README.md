@@ -28,7 +28,7 @@ De hoofdonderzoeksvraag:
 Om de hoogfdvraag goed te kunnen beantwoorden heb ik een aantal deelvragen over cloud exploits bedacht.  
 - Wat is cloud?
 - Wat gebruiken cloud omgevingen om zich te beveiligen?
-- Welke methodes bestaan er om cloud omgevingen te exploiten?  
+- Hoe zet je een cloud test omgeving op om hack methodes op uit te voeren?
 
 **Wat gaat dit onderzoek oplossen?**  
 Dit onderzoek gaat er voor zorgen dat ik begrijp hoe veilig cloud is en wat voor methodes er zijn voor het exploiten van cloud omgevingen.
