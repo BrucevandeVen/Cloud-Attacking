@@ -3,6 +3,11 @@
 ## Inleiding
 Ik ga manieren van [Beau Bullock](https://www.linkedin.com/in/beaubullock/) gebruiken om een of meerdere cloud test omgevingen op te zetten voor Microsoft Azure en Amazon Web Services. Hierbij onderzoek ik hoe deze cloud services en technologiën werken. Na deze omgeving opgezet te hebben ga ik cloud hack methodes gebruiken om deze te exploiten.
 
+## DOT Framework
+Voor het beantwoorden van deze vraag heb ik deze DOT Framework methodes gebruikt:  
+![image](https://github.com/BrucevandeVen/Cloud-Exploits/assets/58031089/7c09aa7c-6063-4a9e-9b64-69ea3a624c13)
+
+
 ## Inhoudsopgave
 - Breaching the Cloud
 - Opzet
