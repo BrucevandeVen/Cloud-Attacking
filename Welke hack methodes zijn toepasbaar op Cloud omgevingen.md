@@ -25,10 +25,12 @@ Ik ga VMware gebruiken om mijn VM's te gebruiken. Ik kan kiezen tussen mijn eige
 ### Azure
 Ik heb een Azure account aangemaakt met mijn privé e-mail adres, omdat het niet mogelijk is Azure AD (Active Directory) te openen/bewerken op het Fontys account omdat deze door de Fontys wordt beheerd.  
 ![image](https://user-images.githubusercontent.com/58031089/233789375-d6d62fc9-0ea9-4368-adb9-5feef719723b.png)  
-Dit is een screenshot van de Azure Portal wanneer ik de Azure AD probeer te openen als ik ingelogd ben met mijn Fontys account.
+Dit is een screenshot van de Azure Portal wanneer ik de Azure AD probeer te openen als ik ingelogd ben met mijn Fontys account.  
+Hierdoor ben ik genoodzaakt mijn eigen credit card te gebruiken.
 
 ### AWS
-Na een AWS account aangemaakt te hebben, heb ik een Admin account toegevoegd aan de IAM users zodat ik via terraform de rechten heb cloud omgevingen te bouwen in mijn AWS account. Bij AWS zijn er geen restricties door Fontys.
+Na een AWS account aangemaakt te hebben met mijn privé e-mail, heb ik een Admin account toegevoegd aan de IAM users zodat ik via terraform de rechten heb cloud omgevingen te bouwen in mijn AWS account.  
+Vanwege dezelfde reden als bij Azure, heb ik bij AWS ook mijn eigen credit card gebruikt.
 
 ### Terraform
 Terraform is een dienst die wordt aangeboden door HashiCorp, een bedrijf dat gespecialiseerd is in Cloud infrastructuurautomatisering. Terraform een platform waarmee je de infrastructuur van je applicaties kunt beheren en automatiseren.  
