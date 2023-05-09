@@ -35,5 +35,7 @@ Terraform is een dienst die wordt aangeboden door HashiCorp, een bedrijf dat ges
 Als je een applicaties in de cloud wilt implementeren, moet je verschillende resources, zoals servers, netwerken en databases, handmatig configureren. Terraform  maakt dit proces makkelijker door je te helpen bij het definiëren van je infrastructuur in code, met behulp van een taal genaamd Terraform. Met Terraform kun je je infrastructuurconfiguraties beheren en wordt het dus eenvoudiger complexere cloud omgevingen op te zetten. Het biedt ook functies zoals samenwerking tussen teamleden, versiebeheer en het bijhouden van wijzigingen. Wanneer je een wijziging aanbrengt in je infrastructuurconfiguratie, kan Terraform de wijziging automatisch doorvoeren, zodat je niet handmatig elke resource hoeft te configureren.  
 Ik gebruik Terraform om de vulnerable cloud omgevingen te beheren zodat ik hackmethodes kan testen op de omgevingen.
 
+### (Cloud) Goats
+(Cloud) Goats zijn vulnerable cloud omgevingen die opgezet zijn met een cloud infrastructuurautomatiserings tool zoals Terraform. Deze omgevingen zijn ontworpen om te hacken en bestaan meerendeels uit configuratie fouten. Voorbeelden van AWS Cloud Goats en hoe je deze zelf op zet zijn te vinden op [RhinoSecurityLabs/cloudgoat](https://github.com/RhinoSecurityLabs/cloudgoat).
 
 
