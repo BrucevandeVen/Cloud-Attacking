@@ -9,17 +9,18 @@ Voor het beantwoorden van deze vraag heb ik deze DOT Framework methodes gebruikt
 
 
 ## Inhoudsopgave
-- Breaching the Cloud
-- Opzet
+- 1. Breaching the Cloud
+- 2. Opzet
 - Azure
 - AWS
 - Terraform
 - Goats
+- 3. Red Teaming
 
-## Breaching the Cloud
+## 1. Breaching the Cloud
 [Breaching the Cloud](https://btc.breakforge.io/) is een website die ondersteuning bied voor het opzetten van een test cloud omgeving. Deze website is opgezet door [Beau Bullock](https://www.linkedin.com/in/beaubullock/), een Cyber Security expert die zich ook in zet voor de uitbreiding van de kenniseconomie. Op de website staat stap voor stap beschreven wat er nodig is om een test cloud omgeving op te zetten, ook is er een VM waar alle benodigde tools al voor geïnstalleerd zijn.
 
-## Opzet
+## 2. Opzet
 De benodigdheden voor de cloud test omgeving zijn:  
 - Azure Account  
 Het moet een Global Access account zijn, dus dit kan niet met mijn school account.
@@ -44,5 +45,17 @@ Ik gebruik Terraform om de vulnerable cloud omgevingen te beheren zodat ik hackm
 
 ### (Cloud) Goats
 (Cloud) Goats zijn vulnerable cloud omgevingen die opgezet zijn met een cloud infrastructuurautomatiserings tool zoals Terraform. Deze omgevingen zijn ontworpen om te hacken en bestaan meerendeels uit configuratie fouten. Voorbeelden van AWS Cloud Goats en hoe je deze zelf op zet zijn te vinden op [RhinoSecurityLabs/cloudgoat](https://github.com/RhinoSecurityLabs/cloudgoat).
+
+## 3. Red Teaming
+![image](https://github.com/BrucevandeVen/Cloud-Exploits/assets/58031089/5edaa4f6-0150-4502-9de8-5b7798cddf3a)  
+Om de Cloud omgevingen aan te vallen heb ik dit framework gevolgd van [BDO](https://www.bdo.ae/en-gb/services/advisory/technology-advisory-services/cybersecurity-services-en/red-teaming). Echter, aangezien ik niet veel ervaring heb met het exploiten van Cloud omgevingen, heb ik waar nodig was de Cheat Sheets van de Goats gebruikt om het proces te leren.  
+
+### Privelige Escalation
+Het is mogelijk via verschillende methodes een minder bevoegde gebruiker, meer rechten te geven als er misconfiguratie heeft plaatsgevonden. Als een AWS Cloud omgeveving bijvoorbeeld een Lambda functie heeft die rollen kan bepalen voor gebruikers en deze niet goed is geconfigureerd, kan een gebruiker met minder rechten via deze functie meer rechten krijgen.  
+![image](https://github.com/BrucevandeVen/Cloud-Exploits/assets/58031089/09015bae-6e5c-4696-94a4-606e2b56f3d5)  
+Hierboven een voorbeeld van hoe de exploitatie flow er uit zou zien bij zo'n dergelijke misconfiguratie.  
+Als de gebruiker eenmaal meer rechten heeft verkregen kunnen er een aantal configuraties en soms ook gevoelige data ingezien of zelfs aangepast worden.
+
+
 
 
