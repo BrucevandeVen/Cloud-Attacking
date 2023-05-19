@@ -1,4 +1,4 @@
-# Cloud-Exploits
+# Hoe veilig zijn Cloud omgevingen?
 
 ## Introductie
 Voor mijn onderzoeks artikel voor Advanced Cyber Security Semester 7 heb ik gekozen voor het onderzoeken van cloud exploits, hierbij wil ik mij vooral richten op de grotere organisaties die cloud omgevingen aanbieden, zoals Microsoft Azure, Google Cloud, AWS en Digital Ocean. Ik heb zelf enige ervaring met Microsoft Azure. Na een jaar met Cloud omgevingen te hebben gewerkt ben ik benieuwd hoe veilig zo'n omgeving is en of er bepaalde methodes zijn die ik zelf uit kan voeren.
@@ -47,3 +47,6 @@ Ik ben van plan minimaal de volgende methodes te gebruiken:
 Om te onderzoeken wat er al over te vinden is en dit implementeren in mijn onderzoek.  
 - Workshop
 Ik ga proberen zelf cloud omgevingen te exploiten.
+
+# Conclusie
+Het is mogelijk om Cloud omgevingen te exploiten, echter is dit vooral vanwege menselijke fouten zoals misconfiguraties of social engineering. Het is daarom belangrijk om tijdens het gebruik van Cloud providers niet aan te nemen dat de Cloud provider alles beveiligt, uiteindelijk liggen de inloggevens en andere keys bij de klant van de provider. Als de klant eenvoudige wachtwoorden of andere misconfiguraties heeft gemaakt, zal dit zorgen voor onveilige Cloud omgevingen waar de Cloud provider geen/weinig schuld aan heeft. 
