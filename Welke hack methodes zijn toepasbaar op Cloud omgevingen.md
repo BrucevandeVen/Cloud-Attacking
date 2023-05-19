@@ -17,6 +17,7 @@ Voor het beantwoorden van deze vraag heb ik deze DOT Framework methodes gebruikt
 - Goats
 - 3. Red Teaming
 - Privilege Escalation
+- SSRF
 
 ## 1. Breaching the Cloud
 [Breaching the Cloud](https://btc.breakforge.io/) is een website die ondersteuning bied voor het opzetten van een test cloud omgeving. Deze website is opgezet door [Beau Bullock](https://www.linkedin.com/in/beaubullock/), een Cyber Security expert die zich ook in zet voor de uitbreiding van de kenniseconomie. Op de website staat stap voor stap beschreven wat er nodig is om een test cloud omgeving op te zetten, ook is er een VM waar alle benodigde tools al voor geïnstalleerd zijn.
@@ -58,6 +59,13 @@ Hierboven een voorbeeld van hoe de exploitatie flow er uit zou zien bij zo'n der
 Als de gebruiker eenmaal meer rechten heeft verkregen kunnen er een aantal configuraties en soms ook gevoelige data ingezien of zelfs aangepast worden.
 
 ### SSRF
+SSRF exploits zijn mogelijk als er een vulnerable web applicatie is gedeployed in de Cloud omgeving.  
+![image](https://github.com/BrucevandeVen/Cloud-Exploits/assets/58031089/8477964b-d800-413f-885e-0f12606ebabf)  
+Na het exploiten van een Cloud omgeving en het uitvoeren van privilege escaltion, komen er meer methodes vrij die helpen bij het verkrijgen van data voor onbevoegden.  
+![image](https://github.com/BrucevandeVen/Cloud-Exploits/assets/58031089/7195a072-5397-47b8-a4d0-5b9baaeb5a55)  
+Hierboven een voorbeeld van hoe een dergelijk scenario er uit zou kunnen zien. 
+
+
 
 
 
