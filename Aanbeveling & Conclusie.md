@@ -19,4 +19,8 @@ Conflicten met bestaande systemen: Het implementeren van het CIS-framework in ee
 Culturele verschuiving: Het kan nodig zijn om de culturele normen binnen de organisatie te veranderen om een standaard framework zoals CIS te implementeren. Zorg ervoor dat iedereen die betrokken is bij het CIS-framework, inclusief het management en het ontwikkelingsteam, betrokken is en op de hoogte is van de voordelen en het belang ervan.
 
 # Conclusie
+Het is mogelijk om Cloud omgevingen te exploiten, echter is dit vooral vanwege menselijke fouten zoals misconfiguraties of social engineering. Het is daarom belangrijk om tijdens het gebruik van Cloud providers niet aan te nemen dat de Cloud provider alles beveiligt, uiteindelijk liggen de inloggevens en andere keys bij de klant van de provider. Als de klant eenvoudige wachtwoorden of andere misconfiguraties heeft gemaakt, zal dit zorgen voor onveilige Cloud omgevingen waar de Cloud provider geen/weinig schuld aan heeft.  
+
 Het oplossen van Cloud-misconfiguraties is essentieel om de AWS-infrastructuur veilig te houden. Het CIS-framework biedt een uniforme benadering voor het toepassen van beveiligingscontroles en het verminderen van misconfiguraties. Zorg ervoor dat er eerst een uitgebreide analyse wordt gemaakt over de huidige status van de Cloud-omgeving, het team vertrouwd maakt met het framework en de suggesties in de AWS-omgeving implementeert. Blijf de infrastructuur monitoren en evalueren om ervoor te zorgen dat de beveiligingscontroles actueel en effectief blijven.
+
+
