@@ -49,7 +49,4 @@ Om te onderzoeken wat er al over te vinden is en dit implementeren in mijn onder
 Ik ga proberen zelf cloud omgevingen te exploiten.
 
 # Proces
-De deelvragen worden uitgewerkt in de andere markdown bestanden. hier staan mijn onderzoek en bevindingen beschreven.
-
-# Conclusie
-Het is mogelijk om Cloud omgevingen te exploiten, echter is dit vooral vanwege menselijke fouten zoals misconfiguraties of social engineering. Het is daarom belangrijk om tijdens het gebruik van Cloud providers niet aan te nemen dat de Cloud provider alles beveiligt, uiteindelijk liggen de inloggevens en andere keys bij de klant van de provider. Als de klant eenvoudige wachtwoorden of andere misconfiguraties heeft gemaakt, zal dit zorgen voor onveilige Cloud omgevingen waar de Cloud provider geen/weinig schuld aan heeft. 
+De deelvragen worden uitgewerkt in de andere markdown bestanden. hier staan mijn onderzoek, bevindingen, aanbevelingen en conclusie beschreven.
