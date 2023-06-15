@@ -18,6 +18,7 @@ Voor het beantwoorden van deze vraag heb ik deze DOT Framework methodes gebruikt
 - 3. Red Teaming
 - Privilege Escalation
 - SSRF
+- 4. Bevindingen scenario's
 
 ## 1. Breaching the Cloud
 [Breaching the Cloud](https://btc.breakforge.io/) is een website die ondersteuning bied voor het opzetten van een test cloud omgeving. Deze website is opgezet door [Beau Bullock](https://www.linkedin.com/in/beaubullock/), een Cyber Security expert die zich ook in zet voor de uitbreiding van de kenniseconomie. Op de website staat stap voor stap beschreven wat er nodig is om een test cloud omgeving op te zetten, ook is er een VM waar alle benodigde tools al voor geïnstalleerd zijn.
@@ -56,15 +57,34 @@ Om de Cloud omgevingen aan te vallen heb ik dit framework gevolgd van [BDO](http
 Het is mogelijk via verschillende methodes een minder bevoegde gebruiker, meer rechten te geven als er misconfiguratie heeft plaatsgevonden. Als een AWS Cloud omgeveving bijvoorbeeld een Lambda functie heeft die rollen kan bepalen voor gebruikers en deze niet goed is geconfigureerd, kan een gebruiker met minder rechten via deze functie meer rechten krijgen.  
 ![image](https://github.com/BrucevandeVen/Cloud-Exploits/assets/58031089/09015bae-6e5c-4696-94a4-606e2b56f3d5)  
 Hierboven een voorbeeld van hoe de exploitatie flow er uit zou zien bij zo'n dergelijke misconfiguratie.  
-Als de gebruiker eenmaal meer rechten heeft verkregen kunnen er een aantal configuraties en soms ook gevoelige data ingezien of zelfs aangepast worden.
+Als de gebruiker eenmaal meer rechten heeft verkregen kunnen er een aantal configuraties en soms ook gevoelige data ingezien of zelfs aangepast worden.  
+  
+Ik ben dieper op de scenario's ingegaan door ze zelf te exploiten en mijn Red Teaming vaardigheden toe te passen. Bij het scenario "ecs_takeover" heb ik gevonden dat er misconfiguraties zijn gebruikt om de omgeving vulnerable te maken dit is bij andere scenario's ook het geval. Hieronder een aantal voorbeelden:  
+![image](https://github.com/BrucevandeVen/Cloud-Exploits/assets/58031089/3edff46f-ab1a-4f05-af10-3569e42480ca)  
+In de afbeelding hierboven is te zien dat er een IAM gebruiker de rechten heeft om van policy versie te veranderen (huidige versie is 1), dit kan al een misconfiguratie zijn aangezien de policy aan deze gebruiker is toegewezen met alleen "Read" rechten. De andere policy versies bevatten andere rechten:  
+- V2  
+Deze policy version heeft alleen het recht om “iam:Get” uit te voeren op resources die binnen een bepaalde tijd aangemaakt zijn. V2 geeft dus bijna geen rechten en minder rechten dan V1 (waar we nu in zitten).  
+- V3  
+V3 heeft heel veel rechten, alle acties op alle resources zijn toegestaan.  
+- V4  
+Bij V4 lijkt er veel te mogen, maar door Effect “Deny” en de IP adres beperkingen zal het voor ons niet beter zijn dan de huidige V1 policy.  
+- V5  
+De V5 policy version geeft ons het recht een aantal waardes uit te lezen omtrent S3 buckets. Dit heeft niet veel meerwaarde aangezien we alleen kunnen lezen.  
+  
+Kortom, de gebruiker kan zijn policy versie veranderen naar V3 en dan zichzelf administrator rechten geven en de gehele Cloud-omgeving tot zijn macht krijgen, waar ook gevoelige data in kan staan of dure resources aanmaken zodat de originele eigenaar geld verliest.  
+Er kunnen hier dus 2 misconfiguraties aanwezig zijn:  
+1. De IAM user hoort geen rechten te hebben om van policy versie te wisselen in policy versie V1
+2. Policy versie 3 hoort niet te bestaan i.v.m. te veel rechten. 
 
 ### SSRF
 SSRF exploits zijn mogelijk als er een vulnerable web applicatie is gedeployed in de Cloud omgeving.  
 ![image](https://github.com/BrucevandeVen/Cloud-Exploits/assets/58031089/8477964b-d800-413f-885e-0f12606ebabf)  
 Na het exploiten van een Cloud omgeving en het uitvoeren van privilege escaltion, komen er meer methodes vrij die helpen bij het verkrijgen van data voor onbevoegden.  
 ![image](https://github.com/BrucevandeVen/Cloud-Exploits/assets/58031089/7195a072-5397-47b8-a4d0-5b9baaeb5a55)  
-Hierboven een voorbeeld van hoe een dergelijk scenario er uit zou kunnen zien. 
+Hierboven een voorbeeld van hoe een dergelijk scenario er uit zou kunnen zien.
 
+## 4. Bevindingen scenario's
+Door de scenario's te onderzoeken en zelf hands-on te exploiten, heb ik bevonden dat de scenario's vooral misconfiguraties bevatten en geen gebruik maken van andere technieken, omdat een Cloud omgeving constant wordt ge-update zal een dergelijke vulnerability niet lang bruikbaar zijn in een scenario die daarvoor ontworopen is. 
 
 
 
