@@ -52,4 +52,4 @@ Ik ga proberen zelf cloud omgevingen te exploiten.
 Ik ga documentatie van de gebruikte technologiën analyseren om mij verder te helpen met mijn onderzoek.
 
 # Proces
-De deelvragen worden uitgewerkt in de andere markdown bestanden. hier staan mijn onderzoek, bevindingen, aanbevelingen en conclusie beschreven.
+De deelvragen worden uitgewerkt in de andere markdown bestanden. hier staan mijn onderzoek, bevindingen, aanbevelingen en conclusie beschreven. Daarnaast is er nog een extern document waar ik de scenario's uitgebreid beschrijf.
