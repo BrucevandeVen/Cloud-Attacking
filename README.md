@@ -8,7 +8,7 @@ Voor mijn onderzoeks artikel voor Advanced Cyber Security Semester 7 heb ik geko
 - [What](#what)
 - [Why](#why)
 - [How](#How)
-- [Proces](#process)
+- [Proces](#proces)
 
 ## DOT Framework
 
