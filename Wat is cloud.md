@@ -1,4 +1,4 @@
-# Wat is Cloud?
+# Wat is Cloud? (Community Research & Document Analysis)
 Een Cloud omgeving is ontstaan door de stijgende vraag over het altijd en overal beschikbaar zijn van data. Een Cloud omgeving bestaat uit 3 lagen:  
 1. Applicatie (SaaS (Software as a Service))  
 In de applicatie laag bevinden zich alle applicaties zoals e-mail services of videoplatformen.
