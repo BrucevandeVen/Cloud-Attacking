@@ -35,18 +35,20 @@ Dit onderzoek gaat er voor zorgen dat ik begrijp hoe veilig cloud is en wat voor
 
 
 ## How
-DOT Framework heeft 5 methodes om een onderzoek uit te voeren:
-- [Library](https://ictresearchmethods.nl/Category:Library) (onderzoeken wat al gedaan is)
-- [Field](https://ictresearchmethods.nl/Category:Field) (baseer keuzes op end users) 
-- [Workshop](https://ictresearchmethods.nl/Category:Workshop) (prototyping/sketching)
-- [Lab](https://ictresearchmethods.nl/Category:Lab) (testing)
-- [Showroom](https://ictresearchmethods.nl/Category:Showroom) (expert feedback)
+DOT Framework heeft 5 categoriën met onderzoeksmethodes om een onderzoek uit te voeren:
+- [Library](https://ictresearchmethods.nl/Category:Library)
+- [Field](https://ictresearchmethods.nl/Category:Field)
+- [Workshop](https://ictresearchmethods.nl/Category:Workshop)
+- [Lab](https://ictresearchmethods.nl/Category:Lab)
+- [Showroom](https://ictresearchmethods.nl/Category:Showroom)
 
-Ik ben van plan minimaal de volgende methodes te gebruiken:  
+Ik ben van plan minimaal de volgende categoriën te gebruiken:  
 - Library  
 Om te onderzoeken wat er al over te vinden is en dit implementeren in mijn onderzoek.  
-- Workshop
-Ik ga proberen zelf cloud omgevingen te exploiten.
+- Workshop  
+Ik ga proberen zelf cloud omgevingen te exploiten.  
+- Field  
+Ik ga documentatie van de gebruikte technologiën analyseren om mij verder te helpen met mijn onderzoek.
 
 # Proces
 De deelvragen worden uitgewerkt in de andere markdown bestanden. hier staan mijn onderzoek, bevindingen, aanbevelingen en conclusie beschreven.
