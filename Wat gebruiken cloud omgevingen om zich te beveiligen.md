@@ -1,4 +1,4 @@
-# Welke methodes gebruiken Cloud omgevingen om zich te beveiligen?
+# Welke methodes gebruiken Cloud omgevingen om zich te beveiligen? (Document Analysis)
 
 ## inleiding
 Cloud omgevingen worden door veel consumenten en bedrijven gebruikt, deze omgevingen bevatten veel gevoelige data en gegevens van de klanten. Omdat er gevoelige data is zullen er altijd hackers op de loer liggen die de data willen stelen, veranderen of verwijderen. Hoe gaan Cloud omgevingen hier mee om en wat voor methodes gebruiken Cloud omgevingen om zich te beschermen tegen hackers?
